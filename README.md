@@ -7,7 +7,7 @@ void main()
 {
      
      int i;
-     char password[40]; 
+     char password[50]; 
      printf("Enter a Password:\t");
      scanf("%s", password);
       for(i = 0; i < strlen(password); i++)
